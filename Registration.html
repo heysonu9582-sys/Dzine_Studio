@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link href="main.css" rel="stylesheet" type="text/css">
+<body>
+    <div id="box" class="box">
+    <table border="0" cellpadding="5"
+    <caption style="color:rgb(97, 56, 2);">Registration Form</caption>
+    <form action="" method="post">
+    <tr>
+        <td></td><td></td>
+    </tr>    
+    <tr>
+        <td><label for="fname">First Name</label></td>
+        <td><input id="fname" type="text" required placeholder="Enter Name Here"></td>
+        </tr>
+        <tr>
+        <td><label for="sname">Second Name</label></td>
+        <td><input id="sname" type="text" required placeholder="Optional"></td>
+        </tr>   
+        
+        <tr>
+            <td>Age</td>
+            <td>
+                <input type="number" max="40" min="18" required placeholder="Enter Your Age">
+
+            </td>
+        </tr>
+        <tr>
+            <td>About Me</td>
+            <td>
+                <textarea cols="30" rows="10"></textarea>
+
+            </td>   
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                     Male<input type="radio" value="Male" checked name="gender">
+                     Female<input type="radio" value="Female" checked name="gender">
+                     Other<input type="radio" value="Other" checked name="gender">  
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>
+                    Reading <input type="checkbox" value="reading">
+                    Dancing <input type="checkbox" value="Dancing">
+                    Cooking <input type="checkbox" value="Cooking">
+                    Travelling <input type="checkbox" value="Travelling">
+                </td>    
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select multiple size="1">
+                    <option value="Delhi">Delhi</option>    
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Madras">Madras</option>
+                    </select>
+            </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="Data">
+                    </td>
+            </tr>
+            <tr>
+                <td>Upload Picture</td>
+                <td>
+                    <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register"><input type="reset"></td>    
+            </tr>
+    </form>
+</table>
+</div>  
+</body>
+</html>
